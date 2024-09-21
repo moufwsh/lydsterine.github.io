@@ -1,4 +1,4 @@
 <span id="a">moufwsh@home</span>:<span id="b">~</span><span id="c">$</span> cat lyd.txt<br/><br/>
 Hi, I'm Lydia.<!-- laglaglaglaglaglaglaglaglaglaglaglag --> 
-<p>Find me on <a href="https://www.linkedin.com/in/lydia-asisten-a0096b1a9/">LinkedIn</a>, <a href="https://open.spotify.com/user/moriartea25?si=2160cb35e18d4b71">Spotify</a>, <a href="https://discord.com/channels/@me/1016130972510584842">Discord</a>.</p><!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
+<p>Find me on <a href="https://www.linkedin.com/in/lydia-asisten-a0096b1a9/">LinkedIn</a>, <a href="https://open.spotify.com/user/moriartea25?si=2160cb35e18d4b71">Spotify</a>, or lydsterine on Discord.</p><!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
 
