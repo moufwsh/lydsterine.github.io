@@ -1,0 +1,2 @@
+<span id="a">moufwsh@home</span>:<span id="b">~</span><span id="c">$</span> cat lyd.txt<br/><br/>
+Hi, I'm Lydia.<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
