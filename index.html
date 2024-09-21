@@ -33,12 +33,25 @@ THE SOFTWARE.
             color: #fff;
             text-align: center;
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px; /* Limits the gif width */
+            height: auto;
+            display: block;
+            margin: 20px auto;
         }
 
         #console {
-            width: 750px;
-            margin: 100px auto;
+            width: 90%; /* Make console width flexible */
+            max-width: 750px;
+            margin: 20px auto;
             font-size: 14px;
+            text-align: left;
+            word-wrap: break-word;
         }
 
         a {
@@ -65,11 +78,26 @@ THE SOFTWARE.
         .accessDenied {
             color: red;
         }
+
+        /* Responsive Design for smaller screens */
+        @media screen and (max-width: 600px) {
+            #console {
+                font-size: 12px; /* Smaller font on mobile */
+            }
+
+            body {
+                font-size: 16px; /* Adjust body font size for mobile readability */
+            }
+
+            img {
+                margin: 10px auto; /* Reduce spacing on mobile */
+            }
+        }
     </style> 
 </head> 
 <body> 
     <!-- Gif at the top of the page -->
-    <img src="https://media.tenor.com/DKyMrtR9YfUAAAAM/porter-robinson-cheerleader.gif" alt="cheerleader gif" width="120">
+    <img src="https://media.tenor.com/DKyMrtR9YfUAAAAM/porter-robinson-cheerleader.gif" alt="cheerleader gif">
 
     <div id="console"></div> 
 
