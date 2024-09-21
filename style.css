@@ -1,0 +1,123 @@
+ /* Light mode (default) */
+ *{
+    font-family:Consolas;
+ }
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark mode */
+  body.dark-mode {
+    background-color: #000000;
+    color: #ffffff; 
+  }
+  .main-header{
+    display: inline;
+
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between the title and button */
+    margin-top: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #theme-toggle {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 5.5px;
+  }
+  
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;  /* Space between each section */
+    padding: 10px;
+  }
+
+.terminal {
+    
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    height: 60vh; /* Set height to 60% of the viewport height */
+    min-height: 300px;
+    max-height: 800px;
+    width: 80%;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+}
+
+/* Terminal text color */
+.terminal-body {
+    display: inline;
+    color: #ffffff; /* Always white for better visibility */
+    
+}
+.prompt {
+    color: #00ff00; /* Bright green for the prompt */
+}
+
+.paragraph1 {
+    display: inline;
+}
+
+.p1 {
+    display: inline;
+}
+.links{
+    color: #fff;
+}
+
+
+@media (max-height: 600px) {
+    .terminal {
+      min-height: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .terminal {
+      width: 95%;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .terminal {
+      width: 95%;
+      padding: 10px;
+    }
+  }
+
+
+.terminal .header {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.terminal .button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.terminal .button.red { background-color: #ff5f56; }
+.terminal .button.yellow { background-color: #ffbd2e; }
+.terminal .button.green { background-color: #27c93f; }
+
+
